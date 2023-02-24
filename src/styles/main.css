@@ -1,0 +1,84 @@
+@import "./reset.css";
+
+html, body {
+	min-height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: hsl(138, 22%, 74%);
+	color: hsl(139, 13%, 28%);
+}
+
+#root {
+	min-height: 100vh;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+}
+
+.section {
+	padding: 70px 0;
+	position: relative;
+}
+
+.title-1 {
+	margin-bottom: 60px;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	color: hsl(139, 13%, 28%);
+}
+
+/* Home */
+
+.home__img, .dif__img {
+	width: 100%;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 100px;
+	box-shadow: 5px 5px 15px 15px hsl(138, 11%, 47%);
+}
+
+/* City */
+
+.projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+}
+
+/* Project details */
+
+.project-details {
+	margin: 0 auto;
+	max-width: 865px;
+	text-align: center;
+}
+
+/* Attractions*/
+
+.attractions {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+	font-size: 24px;
+}
+
+.attr__img {
+	width: 500px;
+	padding: 20px;
+	border-radius: 100px;
+	box-shadow: 5px 5px 15px 15px hsl(138, 11%, 47%);
+}
